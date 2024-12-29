@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background: url("https://images.unsplash.com/photo-1726711340699-952d47133b21?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    border: 2px solid #ffffff3f;
+    border-radius: 15px;
+    padding: 30px 40px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+h1 {
+    margin: 0 0 10px;
+    color: #2a3576;
+    font-weight: 800;
+}
+
+.input-login {
+    width: 80%;
+}
+
+.input-login input {
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid #3649b66e;
+    background: transparent;
+    padding: 15px 35px 15px 12px;
+    font-size: 15px;
+    color: #2a3576;
+}
+
+.input-login input::placeholder{
+    color: #3649b66e;
+}
+
+div img{
+    position: absolute;
+    right: 85px;
+    margin: 6px 0;
+}
+
+.lembrarme{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 12px;
+    align-items: center;
+    color: #2a3576;
+}
+
+.checkbox {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2a3576;
+    font-weight: 700;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.submit {
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 100;
+    background-color: #2a3576;
+    color: #fff;
+}
+
+.submit:hover{
+    background-color: #4661fb;
+    transition: 1s;
+}
+
+.cadastre{
+    color: #fff;
+    font-size: 12px;
+}
+
+.cadastre a{
+    color: #fff;
+}

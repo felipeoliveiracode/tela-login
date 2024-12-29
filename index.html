@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="login" onsubmit="exibirEmail(event)">
+            <h1>Login</h1>
+            <div class="input-login">
+                <input type="email" placeholder="Email" required>
+                <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/2a3576/user--v1.png" alt="user--v1"/>
+            </div>
+            <div class="input-login">
+                <input type="password" placeholder="Senha" required>
+                <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/2a3576/password--v1.png" alt="password--v1"/>
+            </div>
+            <div class="lembrarme">
+                <section class="checkbox">
+                    <input type="checkbox" id="lembrar-me">
+                 <label for="lembrar-me">Lembrar-me</label>
+                </section>
+                <section class="remember">
+                    <a href="#">Esqueceu a senha?</a>
+                </section>
+            </div>
+            <button class="submit" type="submit">Entrar</button>
+            <p class="cadastre">Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </form>
+    </div>
+</body>
+</html>
