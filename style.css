@@ -115,3 +115,14 @@ a:hover{
 .cadastre a{
     color: #fff;
 }
+
+@media (max-width: 425px) {
+    .container {
+        width: 90vw;
+        padding: 30px 15px;
+    }
+
+    div img {
+        right: 17%;
+    }
+}
